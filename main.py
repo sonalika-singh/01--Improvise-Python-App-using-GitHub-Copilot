@@ -7,7 +7,7 @@ app = FastAPI()
 # Welcome note with a customized message
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the API! Customized by sonalika-singh."}
+    return {"message ": "Welcome to the API! Customized by sonalika-singh."}
 
 # Comment: Define a Pydantic model for the new endpoint
 class TextRequest(BaseModel):
