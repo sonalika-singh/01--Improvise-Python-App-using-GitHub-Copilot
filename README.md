@@ -32,7 +32,7 @@ curl -X GET http://127.0.0.1:8000/
 **Response:**
 ```json
 {
-  "message": "Welcome to the API! Customized by RupaAccenture."
+  "message": "Welcome to the API! Customized by sonalika-singh."
 }
 ```
 
